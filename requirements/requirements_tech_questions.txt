@@ -1,0 +1,16 @@
+ACME company inc. 
+Es una compañia distribuidora de autos.
+Necesita un system administrativo para ingreso a la pagina de Web.
+
+Requerimientos:
+
+1. El usuario necesita registrase al sistema
+
+2. El usuario necesita tener acceso a un login
+
+3. El usuario tiene diferentes roles: Administrador; gerente; 
+inventoria; vendedor y cliente.
+
+4. Cada rol de usuario tiene acceso a diferentes paginas.
+
+5. Cada pagina tiene acceso a listas CRUDE
