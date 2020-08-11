@@ -13,4 +13,12 @@ inventoria; vendedor y cliente.
 
 4. Cada rol de usuario tiene acceso a diferentes paginas.
 
-5. Cada pagina tiene acceso a listas CRUDE
+Byron:
+
+6. Los empleados del departamento de inventario compran vehiculos y partes,
+	añaden la informacion al inventario
+
+7. Los vendedores tienen acceso a los autos en inventario y pueden realizar las transaciones 
+	relacionadas con la venta de carros.
+
+8. Cada pagina tiene acceso a listas CRUD
