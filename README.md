@@ -67,5 +67,5 @@ npx nodemon
 
 ## Expresiones de Gratitud 🎁
 
-* Muschas gracias por la oportunidad Houson📢
+* Muschas gracias por la oportunidad Hounsou📢
 * **Mario Campaz** - *Revisó* - [mcampaz](https://github.com/mcampaz)
