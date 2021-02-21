@@ -1,0 +1,43 @@
+{
+  "name": "coding_byron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "dev": "ts-node src/index.ts",
+    "public": "ncp ./src/public/ ./dist/public/",
+    "hbscopy": "ncp ./src/views/ ./dist/views/",
+    "build": "npm run clean && tsc && npm run hbscopy && npm run public",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcampaz/coding_byron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcampaz/coding_byron/issues"
+  },
+  "homepage": "https://github.com/mcampaz/coding_byron#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/express-handlebars": "^3.1.0",
+    "@types/mongoose": "^5.7.36",
+    "@types/morgan": "^1.9.1",
+    "handlebars": "^4.5.0",
+    "ncp": "^2.0.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}

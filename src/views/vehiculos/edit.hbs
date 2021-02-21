@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card">
+            <div class="card-body">
+                <form action="/vehiculos/edit/{{vehiculo._id}}" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="manufacturer" placeholder="Manufacturer" value="{{vehiculo.manufacturer}}"
+                            class="form-control" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="model" class="form-control" value="{{vehiculo.model}}"
+                            placeholder="Model">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="model_year" class="form-control" value="{{vehiculo.model_year}}"
+                            placeholder="Model Year">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="vehicle_description" class="form-control" value="{{vehiculo.vehicle_description}}"
+                            placeholder="Vehicle Description">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="mileage" class="form-control" value="{{vehiculo.mileage}}"
+                            placeholder="Mileage">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="vehicle_condition" class="form-control" value="{{vehiculo.vehicle_condition}}"
+                            placeholder="Vehicle Condition">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Update
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
